@@ -43,6 +43,7 @@ def group_words(s):
 
     return result
 
+
 if __name__ == "__main__":
     print (group_words(u"I Love Python"))
     print (group_words(u"我爱蟒蛇"))
