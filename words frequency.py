@@ -17,8 +17,6 @@ frequency_list = frequency.keys()
 for words in frequency_list:
     print (words, frequency[words])
     
-    
-
 #==============================================================================
 # # Finding Patterns in Text
 #==============================================================================
