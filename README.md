@@ -12,4 +12,4 @@ Content
 * Words Frequency/ Sentiment Analysis
 
 * Package: hyperopt
-* Packgae: user_agents
+* Package: user_agents
