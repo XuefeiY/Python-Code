@@ -88,7 +88,7 @@ def log_parse(app, file, date):
     # write into csv
     df_reduced['application'] = app
     df_reduced['date'] = date
-    cols = ['application', 'date', 'uri_query', 'user_agent', 'user_agent_string', 'Website ID', 'uri_stem', 'Website Name', 'user_agent_device']
+    cols = ['application', 'date', 'uri_query', 'user_agent', 'user_agent_string', 'Website ID', 'uri_stem', 'user_agent_device']
     df_final = df_reduced[cols]
     df_final.to_csv(date+"_mpv_log_"+app+".csv", index = False)
  
